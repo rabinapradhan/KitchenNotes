@@ -7,6 +7,7 @@ import {
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import RecipePage from "./pages/RecipePage";
+
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -15,6 +16,9 @@ const App = () => {
         <Route path="/recipes" element={<RecipePage />} />
       </Route>,
     ),
+    {
+      basename: "/KitchenNotes",
+    },
   );
   return <RouterProvider router={router} />;
 };
