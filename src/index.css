@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Fonts */
+  --font-display: "Fraunces", serif;
+
+  /* Custom Colors */
+  --color-foreground: ##1f1f1f;
+  --color-primary: #c23f00;
+  --color-primary-foreground: #fff;
+  --color-secondary: #ffebca;
+  --color-card: #fff;
+  --color-background: #fefcf4;
+  --color-border: #dedede;
+  --color-muted-foreground: #717171;
+  --color-muted: #f2f2f2;
+}
